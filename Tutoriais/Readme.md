@@ -20,10 +20,10 @@ Atualmente, esta área ou a raiz do repositório abriga os guias de fundação d
 
 | Tutorial | Descrição |
 | :--- | :--- |
-| **[Gemma 4 Local](../Gemma4/)** | Setup do modelo Gemma 4 via Ollama e integração com o editor Cursor. |
-| **[Obsidian MCP](../Obsidian/)** | Como transformar o Obsidian em um servidor MCP para seu Agente de IA ler e escrever notas. |
-| **[OpenClaw Gateway](../OpenClaw/)** | Instalação do orquestrador de IA local OpenClaw e conexão com o WhatsApp. |
-| **[Stitch MCP](../Stitch/)** | Configuração do Google Stitch para extrair Design DNA diretamente para o código. |
+| **[Gemma 4 Local](https://github.com/mayconrodriguess/laboratorios_tutoriais/tree/main/Tutoriais/Gemma4)** | Setup do modelo Gemma 4 via Ollama e integração com o editor Cursor. |
+| **[Obsidian MCP](https://github.com/mayconrodriguess/laboratorios_tutoriais/tree/main/Tutoriais/Obsidian)** | Como transformar o Obsidian em um servidor MCP para seu Agente de IA ler e escrever notas. |
+| **[OpenClaw Gateway](https://github.com/mayconrodriguess/laboratorios_tutoriais/tree/main/Tutoriais/OpenClaw)** | Instalação do orquestrador de IA local OpenClaw e conexão com o WhatsApp. |
+| **[Stitch MCP](https://github.com/mayconrodriguess/laboratorios_tutoriais/tree/main/Tutoriais/MCP-Stitch)** | Configuração do Google Stitch para extrair Design DNA diretamente para o código. |
 | *(Em breve)* **PNETLab Setup** | Como instalar e configurar o emulador de redes PNETLab do zero. |
 
 ---
