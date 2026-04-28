@@ -1,58 +1,36 @@
-# 🚀 AI Agent Workstation: Local LLMs & Autonomous Systems Setup
+# 📚 Tutoriais e Procedimentos
 
-> **A infraestrutura definitiva para uma estação de trabalho de IA autônoma, local e voltada para produtividade e design.**
+> **Guias práticos, diretos e executáveis para configuração e uso de tecnologias.**
 
-[![Expertise: AI Agents](https://img.shields.io/badge/Expertise-AI_Agents-blue.svg)](#)
-[![Performance: Local LLM](https://img.shields.io/badge/Performance-Local_LLM-orange.svg)](#)
-
-Este repositório consolida os guias de instalação e configuração para um ecossistema de Inteligência Artificial de alto desempenho. O foco é manter o processamento 100% local, garantir a autonomia dos agentes e integrar ferramentas de design e gestão de conhecimento.
+Bem-vindo à área de Tutoriais! Esta seção é a base de conhecimento operacional do repositório. Diferente da área de Laboratórios (que foca em experimentação), os tutoriais aqui são feitos para levar você do ponto A ao ponto B da maneira mais rápida, segura e padronizada possível.
 
 ---
 
-## 🎯 Objetivo do Repositório
+## 🛠️ O que você encontra aqui?
 
-Fornecer instruções claras, automatizadas e reproduzíveis para configurar quatro pilares essenciais:
-1. **Modelos Locais (Gemma 4)**
-2. **Segundo Cérebro e Memória (Obsidian)**
-3. **Orquestração de Agentes (OpenClaw)**
-4. **Integração Design-to-Code (Stitch)**
-
-Cada componente possui sua própria documentação detalhada, isolada em seu respectivo diretório, contendo instruções tanto para execução humana quanto para agentes de IA autônomos.
+- **Guias de Instalação**: Procedimentos passo a passo (humanos) e scripts automatizados (para IAs) de ferramentas essenciais.
+- **Configuração de Workstations**: Setups de produtividade, desenvolvimento e IA (como a stack do Gemma 4 + Obsidian).
+- **Manuais de Uso**: Guias de "como fazer" para plataformas específicas (ex: PNETLab, Docker, etc).
 
 ---
 
-## 📂 Navegação por Componentes
+## 📂 Tutoriais Disponíveis
 
-Escolha o componente que deseja configurar. Dentro de cada pasta, você encontrará um guia manual passo a passo e um script automatizado para agentes.
+Atualmente, esta área ou a raiz do repositório abriga os guias de fundação da nossa estação de trabalho de IA.
 
-| Componente | Descrição Principal | Documentação |
-| :--- | :--- | :--- |
-| **[Gemma 4](./Gemma4/)** | Configuração do motor Ollama e pull dos modelos locais Gemma 4 e Gemma 2. Integração com Cursor via Continue. | [Acessar Guia](./Gemma4/README.md) |
-| **[Obsidian MCP](./Obsidian/)** | Transforme seu vault em um servidor MCP via Local REST API, permitindo leitura e escrita pela IA. | [Acessar Guia](./Obsidian/README.md) |
-| **[OpenClaw](./OpenClaw/)** | Setup do gateway de agentes autônomos para interagir via terminais locais ou integrações externas (ex: WhatsApp). | [Acessar Guia](./OpenClaw/README.md) |
-| **[Stitch MCP](./Stitch/)** | Conector MCP para o Google Stitch. Extraia tokens (Design DNA) e converta UI de alta fidelidade em HTML/CSS. | [Acessar Guia](./Stitch/README.md) |
-
----
-
-## 🤖 Para Agentes de IA
-
-Se você é uma IA executando a configuração deste repositório:
-1. Navegue até o diretório do componente desejado.
-2. Leia e execute estritamente o arquivo `auto_install_ai.md`.
-3. **Regra de Execução**: Lembre-se sempre de pedir permissão ao usuário antes de criar diretórios inexistentes.
+| Tutorial | Descrição |
+| :--- | :--- |
+| **[Gemma 4 Local](../Gemma4/)** | Setup do modelo Gemma 4 via Ollama e integração com o editor Cursor. |
+| **[Obsidian MCP](../Obsidian/)** | Como transformar o Obsidian em um servidor MCP para seu Agente de IA ler e escrever notas. |
+| **[OpenClaw Gateway](../OpenClaw/)** | Instalação do orquestrador de IA local OpenClaw e conexão com o WhatsApp. |
+| **[Stitch MCP](../Stitch/)** | Configuração do Google Stitch para extrair Design DNA diretamente para o código. |
+| *(Em breve)* **PNETLab Setup** | Como instalar e configurar o emulador de redes PNETLab do zero. |
 
 ---
 
-## 📈 SEO & Metadados
-- **Title**: AI Agent Workstation Setup: Local Gemma 4, Obsidian MCP & OpenClaw
-- **Description**: Guia definitivo para configurar uma estação de trabalho de IA autônoma e local. Inclui instalação do Gemma 4 via Ollama, Obsidian MCP, OpenClaw e Google Stitch.
-- **Keywords**: IA Local, Gemma 4, Ollama, Obsidian MCP, OpenClaw, Stitch, Automação, Agentes Autônomos.
+## 📝 Padrão de Documentação
 
----
-
-## 🛡️ E-E-A-T (Experiência, Especialidade, Autoridade e Confiança)
-Os procedimentos documentados aqui foram elaborados a partir de testes empíricos em ambientes de desenvolvimento, focando em segurança (modelos locais), performance e modularidade.
-
----
-*Criado para a comunidade de IA Agentic e desenvolvedores de sistemas autônomos.*
-
+Cada tutorial criado nesta pasta segue uma arquitetura base de 3 arquivos:
+1. `README.md`: Visão geral e SEO.
+2. `manual_setup_human.md`: O passo a passo amigável.
+3. `auto_install_ai.md`: O script cru para Agentes executarem.
