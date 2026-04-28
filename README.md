@@ -1,57 +1,42 @@
-# 🚀 AI Agent Workstation: Local LLMs & Autonomous Systems Setup
+# 🧪 Repositório: Laboratórios & Tutoriais (`laboratorios_tutoriais`)
 
-> **A infraestrutura definitiva para uma estação de trabalho de IA autônoma, local e voltada para produtividade e design.**
+> **O epicentro do conhecimento prático: Laboratórios de estudo e tutoriais passo a passo abordando Inteligência Artificial, Infraestrutura, Redes e muito mais.**
 
-[![Expertise: AI Agents](https://img.shields.io/badge/Expertise-AI_Agents-blue.svg)](#)
-[![Performance: Local LLM](https://img.shields.io/badge/Performance-Local_LLM-orange.svg)](#)
+[![Expertise: IT & AI](https://img.shields.io/badge/Expertise-IT_%26_AI-blue.svg)](#)
+[![Focus: Practical Learning](https://img.shields.io/badge/Focus-Practical_Learning-green.svg)](#)
 
-Este repositório consolida os guias de instalação e configuração para um ecossistema de Inteligência Artificial de alto desempenho. O foco é manter o processamento 100% local, garantir a autonomia dos agentes e integrar ferramentas de design e gestão de conhecimento.
-
----
-
-## 🎯 Objetivo do Repositório
-
-Fornecer instruções claras, automatizadas e reproduzíveis para configurar quatro pilares essenciais:
-1. **Modelos Locais (Gemma 4)**
-2. **Segundo Cérebro e Memória (Obsidian)**
-3. **Orquestração de Agentes (OpenClaw)**
-4. **Integração Design-to-Code (Stitch)**
-
-Cada componente possui sua própria documentação detalhada, isolada em seu respectivo diretório, contendo instruções tanto para execução humana quanto para agentes de IA autônomos.
+Bem-vindo ao repositório central de documentação e experimentação! Este espaço foi desenhado para consolidar conhecimento técnico de forma estruturada, permitindo tanto o aprendizado através de simulações práticas quanto a replicação de configurações complexas.
 
 ---
 
-## 📂 Navegação por Componentes
+## 🏗️ Estrutura do Repositório
 
-Escolha o componente que deseja configurar. Dentro de cada pasta, você encontrará um guia manual passo a passo e um script automatizado para agentes.
+O repositório está dividido em duas áreas principais, cada uma com um propósito distinto:
 
-| Componente | Descrição Principal | Documentação |
-| :--- | :--- | :--- |
-| **[Gemma 4](./Gemma4/)** | Configuração do motor Ollama e pull dos modelos locais Gemma 4 e Gemma 2. Integração com Cursor via Continue. | [Acessar Guia](./Gemma4/README.md) |
-| **[Obsidian MCP](./Obsidian/)** | Transforme seu vault em um servidor MCP via Local REST API, permitindo leitura e escrita pela IA. | [Acessar Guia](./Obsidian/README.md) |
-| **[OpenClaw](./OpenClaw/)** | Setup do gateway de agentes autônomos para interagir via terminais locais ou integrações externas (ex: WhatsApp). | [Acessar Guia](./OpenClaw/README.md) |
-| **[Stitch MCP](./Stitch/)** | Conector MCP para o Google Stitch. Extraia tokens (Design DNA) e converta UI de alta fidelidade em HTML/CSS. | [Acessar Guia](./Stitch/README.md) |
+### 1. [🔬 Laboratórios (Labs)](./laboratorios/README.md)
+Área dedicada à experimentação, Provas de Conceito (PoCs) e simulações. Aqui você encontrará:
+- Cenários práticos de redes e infraestrutura.
+- Testes de novas tecnologias e modelos de IA.
+- Ambientes de simulação (ex: PNETLab, EVE-NG).
+
+### 2. [📚 Tutoriais e Procedimentos](./tutoriais/README.md)
+Guias "mão na massa", estruturados para ensinar o uso ou a instalação de ferramentas específicas. Aqui você encontrará:
+- Guias de configuração de Agentes de IA Autônomos (Gemma 4, OpenClaw).
+- Integrações e setups do dia a dia (Obsidian MCP, Stitch).
+- Guias passo a passo para ferramentas de rede e infra.
 
 ---
 
-## 🤖 Para Agentes de IA
+## 🎯 Princípios do Repositório (E-E-A-T)
 
-Se você é uma IA executando a configuração deste repositório:
-1. Navegue até o diretório do componente desejado.
-2. Leia e execute estritamente o arquivo `auto_install_ai.md`.
-3. **Regra de Execução**: Lembre-se sempre de pedir permissão ao usuário antes de criar diretórios inexistentes.
+Para manter a alta qualidade, todas as documentações deste repositório seguem os seguintes pilares:
+- **Pragmatismo**: Foco no que funciona no mundo real, sem teorias excessivas.
+- **Automação**: Sempre que possível, os tutoriais incluem scripts (`auto_install_ai.md`) prontos para execução por agentes de IA ou humanos.
+- **Isolamento**: Cada tecnologia ou laboratório vive em seu próprio diretório autossuficiente.
 
 ---
 
 ## 📈 SEO & Metadados
-- **Title**: AI Agent Workstation Setup: Local Gemma 4, Obsidian MCP & OpenClaw
-- **Description**: Guia definitivo para configurar uma estação de trabalho de IA autônoma e local. Inclui instalação do Gemma 4 via Ollama, Obsidian MCP, OpenClaw e Google Stitch.
-- **Keywords**: IA Local, Gemma 4, Ollama, Obsidian MCP, OpenClaw, Stitch, Automação, Agentes Autônomos.
-
----
-
-## 🛡️ E-E-A-T (Experiência, Especialidade, Autoridade e Confiança)
-Os procedimentos documentados aqui foram elaborados a partir de testes empíricos em ambientes de desenvolvimento, focando em segurança (modelos locais), performance e modularidade.
-
----
-*Criado para a comunidade de IA Agentic e desenvolvedores de sistemas autônomos.*
+- **Title**: Laboratórios e Tutoriais: Guias Práticos de IA, Infra e Redes
+- **Description**: Repositório central com laboratórios práticos e tutoriais de configuração cobrindo Inteligência Artificial, Infraestrutura de TI e Redes.
+- **Keywords**: Laboratórios, Tutoriais, IA, Infraestrutura, Redes, PNETLab, Ollama, MCP, PoC.
